@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Enterprise AI Security & Governance Checklist"
+message: "If you use this checklist in your work, please cite it."
+type: dataset
+authors:
+  - family-names: "Saleem"
+    given-names: "Hamza"
+year: 2026
+version: "1.0.0"
+license: "proprietary"
+repository-code: "https://github.com/<your-username>/enterprise-ai-security-governance-checklist"
+abstract: "An Excel-based AI security and governance checklist for organisations adopting generative AI, LLMs, copilots, RAG, AI coding assistants, and agentic AI workflows."
+keywords:
+  - AI Security
+  - AI Governance
+  - LLM Security
+  - GenAI Security
+  - Shadow AI
+  - AI Detection and Response

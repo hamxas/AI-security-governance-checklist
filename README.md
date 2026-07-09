@@ -1,89 +1,96 @@
-# Enterprise AI Security & Governance Checklist
+<p align="center">
+  <img src="assets/banner-option-1-executive-blue.svg" alt="Enterprise AI Security & Governance Checklist" width="100%">
+</p>
 
-**Author:** Hamza Saleem  
-**Version:** 1.0  
-**Format:** Excel-based assessment and implementation tool  
+<h1 align="center">Enterprise AI Security & Governance Checklist</h1>
 
-A practical security and governance checklist for organisations adopting AI, LLMs, copilots, AI coding assistants, RAG applications, and agentic AI workflows.
+<p align="center">
+  A practical Excel-based tool to help organisations adopt AI safely with security controls, guardrails, detection, and governance.
+</p>
 
-![Dashboard preview](assets/dashboard-preview.png)
+<p align="center">
+  <a href="tool/Enterprise_AI_Security_Governance_Checklist.xlsx"><b>Download Tool</b></a>
+  ·
+  <a href="docs/implementation-playbook.md"><b>Implementation Playbook</b></a>
+  ·
+  <a href="docs/framework-mapping.md"><b>Framework Mapping</b></a>
+  ·
+  <a href="docs/marketing-copy.md"><b>Share</b></a>
+</p>
 
-## Quick Download
+<p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/version-v1.1-ff6b5c">
+  <img alt="Format" src="https://img.shields.io/badge/format-Excel-2ea043">
+  <img alt="Frameworks" src="https://img.shields.io/badge/mapped%20to-NIST%20%7C%20ISO%2042001%20%7C%20OWASP%20LLM-blue">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-lightgrey">
+</p>
 
-- Download the workbook from `tool/Enterprise AI Security & Governance Checklist.xlsx`
-- Best for Microsoft Excel desktop or Excel 365
-- Start with the **How to Use** and **AI Asset Inventory** tabs
+---
 
-## Licensing Note
+## Why this tool exists
 
-This repository is public for visibility and evaluation, but it is **not open source**. Reuse, redistribution, resale, and repackaging are restricted under `LICENSE.md`.
+AI adoption is moving faster than most security programmes.
 
-## Problem Statement
+Employees are using ChatGPT, Claude, Gemini, Copilot, AI coding assistants, browser extensions, document summarisation tools, and agentic workflows in daily operations. The risk is not just “AI usage.” The real risk is **uncontrolled AI usage**.
 
-Organisations are adopting AI quickly, often before security, privacy, governance, and detection controls are mature enough. Employees use tools such as ChatGPT, Claude, Gemini, Copilot, AI coding assistants, document summarisation tools, browser extensions, and agentic workflows in day-to-day operations.
+Common questions security teams struggle with:
 
-This creates several risks:
+- Which AI tools are employees using?
+- What data is being uploaded into AI tools?
+- Are users pasting secrets, customer data, source code, or confidential documents?
+- Do we have approved AI tools and clear usage rules?
+- Can we detect Shadow AI?
+- Do we have guardrails for prompts, file uploads, outputs, RAG, and agents?
+- Who owns AI risk across Security, Engineering, Legal, Privacy, and GRC?
 
-- Sensitive data exposure through prompts, file uploads, and AI SaaS tools
-- Shadow AI usage outside approved enterprise controls
-- Prompt injection and jailbreak attempts against internal AI applications
-- Unsafe agent actions through tools, APIs, email, tickets, cloud resources, or code repositories
-- Weak logging and limited detection coverage for AI misuse
-- Inconsistent governance across business, engineering, legal, privacy, and security teams
+This checklist helps organisations move from **uncontrolled AI adoption** to **measurable AI risk management**.
 
-This tool helps organisations move from **uncontrolled AI adoption** to **measurable AI risk management**.
+---
 
-## What This Tool Provides
+## What is included
 
-The workbook provides a structured assessment model covering AI governance, security architecture, data protection, detection engineering, vendor risk, and incident response.
+The Excel workbook includes:
 
-It includes:
+| Area | Purpose |
+|---|---|
+| **Introduction** | Explains the purpose, author, scope, and how to use the tool |
+| **Dashboard** | Shows AI security maturity and control status |
+| **Control Checklist** | Main assessment with scoring, ownership, evidence, and status |
+| **AI Asset Inventory** | Track AI tools, models, users, data types, and owners |
+| **Guardrails Matrix** | Define controls for prompts, files, outputs, RAG, and agents |
+| **Detection Library** | AI security detection use cases for SOC/SIEM teams |
+| **Vendor Review** | Questions for AI SaaS, LLM providers, copilots, and AI platforms |
+| **Incident Playbook** | Response guidance for AI-related security incidents |
+| **Framework References** | Mapping to recognised AI/security frameworks |
 
-- AI security maturity dashboard
-- Control checklist with scoring
-- AI asset inventory
-- Approved AI tools register
-- Data classification rules
-- Guardrails matrix
-- Shadow AI detection checklist
-- LLM gateway controls
-- AI vendor review checklist
-- AI incident response playbook
-- Reference mapping to recognised frameworks
+---
 
-## Workbook Tabs
+## Control domains covered
 
-The workbook currently contains these tabs:
+```text
+AI Governance
+AI Asset Inventory
+Approved AI Usage
+Shadow AI Detection
+Data Classification
+DLP and Sensitive Data Protection
+Prompt and Input Guardrails
+Output Guardrails
+LLM Gateway and Proxy Controls
+RAG Security
+Agentic AI Risk
+AI Coding Assistant Controls
+OAuth and SaaS AI Governance
+Browser Extension Risk
+Vendor Risk Management
+AI Detection and Response
+AI Incident Handling
+Security Metrics and Reporting
+```
 
-- **Dashboard** - maturity summary and domain-level scoring
-- **How to Use** - instructions for completing and maintaining the workbook
-- **Control Checklist** - core controls, owners, evidence, and scoring
-- **AI Asset Inventory** - AI systems, tools, use cases, and ownership tracking
-- **Guardrails Matrix** - preventive and detective safeguards for AI use
-- **Detection Library** - example monitoring and detection use cases
-- **Vendor Review** - third-party AI risk review prompts and checks
-- **Incident Playbook** - response guidance for AI-related incidents
-- **Reference Sources** - source material and framework references
-- **Settings** - workbook settings and supporting values
+---
 
-## Frameworks Referenced
-
-This tool is inspired by and mapped to widely recognised AI security, privacy, and governance resources, including:
-
-- NIST AI Risk Management Framework: https://www.nist.gov/itl/ai-risk-management-framework
-- NIST Generative AI Profile: https://www.nist.gov/itl/ai-risk-management-framework
-- ISO/IEC 42001 AI Management System: https://www.iso.org/standard/81230.html
-- ISO/IEC 23894 AI Risk Management: https://www.iso.org/standard/77304.html
-- OWASP Top 10 for LLM Applications: https://owasp.org/www-project-top-10-for-large-language-model-applications/
-- MITRE ATLAS: https://atlas.mitre.org/
-- Cloud Security Alliance AI Controls Matrix: https://cloudsecurityalliance.org/
-- EU AI Act concepts: https://artificialintelligenceact.eu/
-
-This is not an official implementation of any one standard. It is an operational checklist designed to help security teams apply those concepts in real organisations.
-
-## Scoring Model
-
-Each control can be scored from 0 to 5:
+## Scoring model
 
 | Score | Meaning |
 |---:|---|
@@ -94,70 +101,123 @@ Each control can be scored from 0 to 5:
 | 4 | Implemented & Tested |
 | 5 | Automated & Monitored |
 
-The dashboard uses these scores to show maturity by domain and overall readiness.
+The goal is not to “tick boxes.” The goal is to understand current maturity, identify gaps, prioritise controls, and improve safely over time.
 
-## Example Use Cases
+---
 
-Use this tool to assess whether your organisation has controls for:
+## Example control
 
-- Approved AI tool usage
-- Shadow AI discovery and reduction
-- DLP for AI prompts and uploads
-- Secrets detection before LLM submission
-- AI browser extension governance
-- OAuth app review for AI SaaS tools
-- LLM gateway or proxy enforcement
-- RAG and vector database access control
-- Agentic AI tool permissions
-- AI detection and response use cases
-- AI vendor due diligence
-- AI incident response
+| Domain | Control | Assessment question |
+|---|---|---|
+| Data Protection | AI DLP scanning | Are prompts and uploaded files scanned for PII, secrets, source code, credentials, customer data, and confidential information before reaching external LLMs? |
 
-## Suggested Operating Model
+---
 
-A practical enterprise AI security programme should cover:
-
-1. **Discover** AI usage across users, SaaS, endpoints, browsers, cloud, and code repositories.
-2. **Approve** enterprise AI tools and define acceptable use cases.
-3. **Protect** sensitive data with DLP, redaction, file controls, and access policies.
-4. **Control** model access through enterprise workspaces or an LLM gateway.
-5. **Detect** risky behaviour through SIEM, CASB, SWG, EDR, identity, OAuth, and code repository logs.
-6. **Respond** with playbooks for AI data leakage, prompt injection, risky agents, and Shadow AI incidents.
-7. **Govern** AI risk through ownership, exception handling, vendor review, and executive reporting.
-
-## Repository Structure
+## Recommended operating model
 
 ```text
-.
-├── README.md
-├── tool/
-│   └── Enterprise_AI_Security_Governance_Checklist.xlsx
-├── assets/
-│   └── dashboard-preview.png
-├── docs/
-│   ├── framework-mapping.md
-│   ├── implementation-playbook.md
-├── LICENSE.md
-├── SECURITY.md
-├── CONTRIBUTING.md
-├── CHANGELOG.md
-└── CITATION.cff
+Discover AI usage
+        ↓
+Approve tools and use cases
+        ↓
+Classify data risk
+        ↓
+Apply guardrails and DLP
+        ↓
+Route high-risk usage through approved AI gateway
+        ↓
+Detect Shadow AI and misuse
+        ↓
+Respond to AI incidents
+        ↓
+Report maturity and improve continuously
 ```
 
-## Getting Started
+---
 
-1. Download the workbook from the `tool/` folder.
-2. Start with the **AI Asset Inventory** tab.
-3. Complete the **Control Checklist** tab.
-4. Score each control from 0 to 5.
-5. Use the dashboard to identify weak domains.
-6. Use the evidence and owner columns to assign remediation actions.
-7. Reassess quarterly or after major AI platform changes.
+## Framework alignment
 
-## Positioning
+This tool is inspired by and mapped to concepts from:
 
-This tool is built for security leaders, AI security engineers, GRC teams, privacy teams, platform teams, and product security teams who need a practical way to govern AI adoption without blocking innovation.
+- **NIST AI Risk Management Framework**
+- **NIST Generative AI Profile**
+- **ISO/IEC 42001 AI Management System**
+- **ISO/IEC 23894 AI Risk Management**
+- **OWASP Top 10 for LLM Applications**
+- **MITRE ATLAS**
+- **Cloud Security Alliance AI Controls Matrix**
+- **EU AI Act risk concepts**
+
+This is not an official implementation of any one standard. It is a practical checklist designed to make those ideas usable for security and governance teams.
+
+---
+
+## Who should use this
+
+This tool is useful for:
+
+- AI Security Engineers
+- Security Architects
+- Product Security teams
+- GRC and Risk teams
+- SOC and Detection Engineering teams
+- CISOs and security leaders
+- Engineering managers
+- AI platform teams
+- Consultants supporting secure AI adoption
+
+---
+
+## Download
+
+Download the latest version here:
+
+**[Enterprise AI Security & Governance Checklist](tool/Enterprise_AI_Security_Governance_Checklist.xlsx)**
+
+For better tracking, future versions should also be published through **GitHub Releases**.
+
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="assets/dashboard-preview.png" alt="Dashboard preview" width="90%">
+</p>
+
+---
+
+## Author
+
+Created by **Hamza Saleem**.
+
+I work across security engineering, detection, incident response, application security, and AI security. This checklist was created to help organisations adopt AI safely by combining practical security controls, governance, and detection engineering.
+
+Connect with me on LinkedIn or follow this repository for updates.
+
+---
+
+## Contributing
+
+Feedback, ideas, and pull requests are welcome.
+
+Suggested contributions:
+
+- Additional AI security controls
+- Better framework mappings
+- Detection use cases
+- Vendor review questions
+- LLM gateway patterns
+- RAG and agentic AI controls
+- Real-world lessons from AI adoption programmes
+
+---
 
 ## Disclaimer
 
-This checklist is provided for educational and advisory purposes. It is not legal advice, certification advice, or a substitute for formal risk assessment, audit, privacy review, or regulatory interpretation.
+This tool is provided for educational and practical assessment purposes. It does not replace legal, regulatory, privacy, or professional security advice. Organisations should adapt the checklist to their business context, regulatory environment, and internal risk appetite.
+
+---
+
+<p align="center">
+  <b>If this tool helps you, please star the repo and share feedback.</b>
+</p>

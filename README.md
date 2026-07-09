@@ -8,6 +8,16 @@ A practical security and governance checklist for organisations adopting AI, LLM
 
 ![Dashboard preview](assets/dashboard-preview.png)
 
+## Quick Download
+
+- Download the workbook from `tool/Enterprise_AI_Security_Governance_Checklist.xlsx`
+- Best for Microsoft Excel desktop or Excel 365
+- Start with the **How to Use** and **AI Asset Inventory** tabs
+
+## Licensing Note
+
+This repository is public for visibility and evaluation, but it is **not open source**. Reuse, redistribution, resale, and repackaging are restricted under `LICENSE.md`.
+
 ## Problem Statement
 
 Organisations are adopting AI quickly, often before security, privacy, governance, and detection controls are mature enough. Employees use tools such as ChatGPT, Claude, Gemini, Copilot, AI coding assistants, document summarisation tools, browser extensions, and agentic workflows in day-to-day operations.
@@ -40,6 +50,21 @@ It includes:
 - AI vendor review checklist
 - AI incident response playbook
 - Reference mapping to recognised frameworks
+
+## Workbook Tabs
+
+The workbook currently contains these tabs:
+
+- **Dashboard** - maturity summary and domain-level scoring
+- **How to Use** - instructions for completing and maintaining the workbook
+- **Control Checklist** - core controls, owners, evidence, and scoring
+- **AI Asset Inventory** - AI systems, tools, use cases, and ownership tracking
+- **Guardrails Matrix** - preventive and detective safeguards for AI use
+- **Detection Library** - example monitoring and detection use cases
+- **Vendor Review** - third-party AI risk review prompts and checks
+- **Incident Playbook** - response guidance for AI-related incidents
+- **Reference Sources** - source material and framework references
+- **Settings** - workbook settings and supporting values
 
 ## Frameworks Referenced
 

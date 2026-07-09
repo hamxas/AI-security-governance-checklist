@@ -10,7 +10,7 @@ A practical security and governance checklist for organisations adopting AI, LLM
 
 ## Quick Download
 
-- Download the workbook from `tool/Enterprise_AI_Security_Governance_Checklist.xlsx`
+- Download the workbook from `tool/Enterprise AI Security & Governance Checklist.xlsx`
 - Best for Microsoft Excel desktop or Excel 365
 - Start with the **How to Use** and **AI Asset Inventory** tabs
 
@@ -137,8 +137,6 @@ A practical enterprise AI security programme should cover:
 ├── docs/
 │   ├── framework-mapping.md
 │   ├── implementation-playbook.md
-│   ├── github-upload-steps.md
-│   └── marketing-copy.md
 ├── LICENSE.md
 ├── SECURITY.md
 ├── CONTRIBUTING.md

@@ -1,0 +1,31 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1400" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.55" stop-color="#102B46"/>
+      <stop offset="1" stop-color="#0A1624"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="420" rx="30" fill="url(#g)"/>
+  <rect x="35" y="35" width="1330" height="350" rx="26" stroke="#2D6CDF" stroke-width="2" opacity="0.45"/>
+  <circle cx="180" cy="210" r="78" stroke="#3AA7FF" stroke-width="6" opacity="0.55"/>
+  <circle cx="180" cy="210" r="34" fill="#3AA7FF" opacity="0.12"/>
+  <path d="M180 132V88M180 332V288M102 210H58M302 210H258M125 155L94 124M235 265L266 296M235 155L266 124M125 265L94 296" stroke="#3AA7FF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M1140 105H1265M1140 155H1320M1140 205H1288M1140 255H1320M1140 305H1265" stroke="#4FD1C5" stroke-width="4" stroke-linecap="round" opacity="0.75"/>
+  <circle cx="1130" cy="105" r="8" fill="#4FD1C5"/>
+  <circle cx="1130" cy="155" r="8" fill="#4FD1C5"/>
+  <circle cx="1130" cy="205" r="8" fill="#4FD1C5"/>
+  <circle cx="1130" cy="255" r="8" fill="#4FD1C5"/>
+  <circle cx="1130" cy="305" r="8" fill="#4FD1C5"/>
+  <text x="700" y="155" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="68" font-weight="800">Enterprise AI Security</text>
+  <text x="700" y="220" text-anchor="middle" fill="#BEE3F8" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="700">&amp; Governance Checklist</text>
+  <text x="700" y="282" text-anchor="middle" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="500">AI Risk • Guardrails • Detection • Compliance • Governance</text>
+  <text x="700" y="335" text-anchor="middle" fill="#4FD1C5" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" filter="url(#glow)">Created by Hamza Saleem</text>
+</svg>

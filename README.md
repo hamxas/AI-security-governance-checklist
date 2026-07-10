@@ -174,8 +174,6 @@ Download the latest version here:
 
 **[Enterprise AI Security & Governance Checklist](tool/Enterprise_AI_Security_Governance_Checklist.xlsx)**
 
-For better tracking, future versions should also be published through **GitHub Releases**.
-
 ---
 
 ## Screenshots

@@ -15,7 +15,7 @@
   ·
   <a href="docs/framework-mapping.md"><b>Framework Mapping</b></a>
   ·
-  <a href="docs/marketing-copy.md"><b>Share</b></a>
+<a href="https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/hamxas/AI-security-governance-checklist" target="_blank"><b>Share on LinkedIn</b></a>
 </p>
 
 <p align="center">
